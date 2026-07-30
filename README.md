@@ -33,6 +33,25 @@ A collection of classic text-based mini-games built in Java, showcasing fundamen
    - Type `1` (**Attack**): Deal random damage (1–10) to the creature. Keep attacking until its strength drops to `0` or less to win!
    - Type `2` (**Run**): Attempt to escape back to safety (50% chance of success).
 5. **Win the Game**: Defeat the creature or successfully run away to survive the forest!
+
+
+## ❓ Java Quiz Game
+
+An interactive console-based trivia quiz game testing knowledge on Computer Science, Networking, Cybersecurity, and Software Development concepts.
+
+### 🌟 Key Features & Gameplay Mechanics
+
+1. **2D Array Option Mapping**: Utilizes a 1D array for questions (`Questions[]`) and answer keys (`answers[]`), paired with a 2D array (`Options[][]`) to cleanly structure and render multiple-choice options.
+2. **Computer Science Knowledge Test**: Features 10 tech-focused questions covering operating systems, networking (HTTP/HTTPS, IP masks), databases (SQL), and data structures.
+3. **Real-Time Answer Evaluation**: Compares player input (`guess`) against stored answer keys in real time, giving instant visual feedback (`Correct!` or `Wrong!`).
+4. **Score Tracking System**: Accurately tracks accumulated points throughout the quiz and displays the final score out of 10 upon completion.
+
+### 🎮 How to Play
+
+1. Read the Computer Science/IT question displayed on the console.
+2. Enter your guess by typing a number from `1` to `4` corresponding to your choice.
+3. Receive instant feedback after each response.
+4. Complete all 10 questions to reveal your total score!
    
 ## ✂️ Rock Paper Scissors Game
 
