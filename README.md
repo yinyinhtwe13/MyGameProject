@@ -34,6 +34,23 @@ A collection of classic text-based mini-games built in Java, showcasing fundamen
    - Type `2` (**Run**): Attempt to escape back to safety (50% chance of success).
 5. **Win the Game**: Defeat the creature or successfully run away to survive the forest!
 
+## 🎲 Dice Game
+
+A fun console application that simulates rolling custom amounts of 6-sided dice, featuring ASCII art graphics for visual representation of each die face.
+
+### 🌟 Key Features & Gameplay Mechanics
+
+1. **ASCII Art Visualization**: Uses Java's multiline text blocks (`"""..."""`) to render clear ASCII art graphics for dice faces 1 through 6.
+2. **Modern Switch Syntax**: Utilizes modern Java `switch` arrow expressions (`case 1 -> ...`) to map roll values to their corresponding ASCII graphic seamlessly.
+3. **Dynamic Multi-Dice Rolling**: Allows players to roll multiple dice at once using a `for` loop based on user input.
+4. **Input Validation & Total Calculation**: Validates that the number of dice requested is greater than `0`, keeps track of each individual roll, and computes the grand total.
+
+### 🎮 How to Play
+
+1. Enter the number of dice you wish to roll when prompted (must be greater than 0).
+2. Watch the console print the visual ASCII die face and numeric value for each roll.
+3. Review the combined sum/total score of all rolled dice!
+
 
 ## ❓ Java Quiz Game
 
@@ -52,6 +69,27 @@ An interactive console-based trivia quiz game testing knowledge on Computer Scie
 2. Enter your guess by typing a number from `1` to `4` corresponding to your choice.
 3. Receive instant feedback after each response.
 4. Complete all 10 questions to reveal your total score!
+
+## 🎰 Java Slot Machine
+
+A console-based slot machine game featuring customizable bets, interactive emoji reels, balance tracking, and dynamic payout multipliers for matching combinations.
+
+### 🌟 Key Features & Gameplay Mechanics
+
+1. **Emoji Reel Representation**: Uses an array of UTF-8 fruit and food emojis (`🍓`, `🍒`, `🍋`, `🍄`, `🥑`) to simulate visual slot machine reels in the terminal.
+2. **Dynamic Payout Multipliers**:
+   - **3 Matching Symbols**: Triggers a **3x payout** (`betAmount * 3`).
+   - **2 Matching Symbols**: Triggers a **2x payout** (`betAmount * 2`).
+   - **No Matches**: Forfeits the wagered bet.
+3. **Smart Balance & Bet Validation**: Validates user bets against the active balance (`betAmount > currentBalance`), preventing invalid entries and auto-terminating the game when out of funds.
+4. **Interactive Replay Loop**: Implements a `do-while` loop paired with user input sanitization (`toUpperCase().charAt(0)`) to allow seamless continuous rounds.
+
+### 🎮 How to Play
+
+1. Start with an initial virtual balance of **$100**.
+2. Enter your wager amount for the spin (must not exceed your active balance).
+3. Watch the 3 reels spin and display random emoji combinations.
+4. Collect your payouts for matching 2 or 3 symbols, or keep spinning until you choose to quit or run out of money!
    
 ## ✂️ Rock Paper Scissors Game
 
